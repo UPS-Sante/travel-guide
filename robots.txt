@@ -1,0 +1,5 @@
+# Notes d'information aux voyageurs
+# Diffusion par lien direct aux participants de la mission.
+# Page volontairement exclue de l'indexation par les moteurs de recherche.
+User-agent: *
+Disallow: /
