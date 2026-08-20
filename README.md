@@ -9,15 +9,21 @@ Ministère de la Santé Publique et de la Prévention
 ## Contenu
 
 Note d'information bilingue français / anglais destinée aux participants de la mission.
-Douze rubriques : date et lieu, visa, formalités de police, situation sécuritaire, transport,
-vaccination et santé, hébergement, climat, banque et monnaie, tenue vestimentaire, connectivité,
-assurance et documents essentiels. Annexe des pays exemptés de visa et listes de préparation
-avant le départ.
+Quatre parties, trois volets chacune, suivant l'ordre du voyage :
+
+I. Préparer le départ. Passeport et visa, vaccination et santé, assurance et documents essentiels.
+II. Arriver à N'Djamena. Formalités d'entrée, transferts et déplacements, hébergement.
+III. Le déroulement de la mission. Lieux et horaires, sécurité, tenue vestimentaire.
+IV. La vie pratique. Climat, banque et monnaie, électricité et connectivité.
+
+En annexe, les pays exemptés de visa et deux listes de préparation avant le départ.
 
 ## Publication
 
 Page unique autonome (`index.html`), sans dépendance externe autre que les fontes.
 Armoiries intégrées au fichier. Fonctionne hors ligne après premier chargement.
+La page est exclue de l'indexation par balise `robots` et par `robots.txt` : la diffusion
+se fait par lien direct.
 
 Sélecteur de langue français ou anglais. La langue est détectée au premier
 chargement d'après le navigateur, puis conservée sur l'appareil du lecteur,
