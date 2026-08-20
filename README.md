@@ -19,11 +19,24 @@ avant le départ.
 Page unique autonome (`index.html`), sans dépendance externe autre que les fontes.
 Armoiries intégrées au fichier. Fonctionne hors ligne après premier chargement.
 
-Sélecteur de langue : français, français et anglais côte à côte, anglais.
-La langue et l'état des listes à cocher sont conservés sur l'appareil du lecteur.
+Sélecteur de langue français ou anglais. La langue est détectée au premier
+chargement d'après le navigateur, puis conservée sur l'appareil du lecteur,
+comme l'état des listes de préparation.
+
 Mise en page adaptée au téléphone, à la tablette et à l'ordinateur.
-Version imprimable bilingue accessible depuis le bouton d'impression.
+
+Le bouton PDF de la barre supérieure télécharge `notes-voyageurs-fr.pdf` ou
+`notes-voyageurs-en.pdf` selon la langue affichée. Ces fichiers sont produits
+à partir de la même page et suivent donc toute modification de `index.html`.
+
+La carte des éléments à transmettre ouvre une boîte de dialogue qui compose
+le courriel destiné au comité d'organisation, avec la liste des pièces cochées
+et celles restant à fournir. Les pièces elles-mêmes sont jointes depuis la
+messagerie du participant.
 
 ## Mise à jour
 
 Modifier `index.html` puis valider sur la branche `main`. La publication est automatique.
+
+Après toute modification du contenu, régénérer les deux PDF à partir de la page
+mise à jour afin qu'ils restent alignés sur la version en ligne.
